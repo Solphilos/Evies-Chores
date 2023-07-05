@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    border: solid pink;
+    
+}
+
+.body {
+    height: 100%;
+    border: solid yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonBox {
+    height: 50%;
+    width: 45%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    border: solid red;
+}
+
+.chores, .points {
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    border: solid grey;
+    
+}
+
+
+
+
